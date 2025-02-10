@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Institut Spécialisé de Technologie Appliquée Cité de L’air El Jadida</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylecss/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="stylecss/commrnt.css">
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="shortcut icon" href="images/fav-icon.png" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="stylecss/for.css">
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      font-family: poppins;
+      box-sizing: border-box;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    body {
+      margin: 0px;
+      padding: 0px;
+      font-family: poppins;
+      background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    #blog {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+      border-top: 1px solid rgba(0, 0, 0, 0.05);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    }
+
+    .blog-heading {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .blog-heading span {
+      color: #f33c3c;
+    }
+
+    .blog-heading h3 {
+      font-size: 2.4rem;
+      color: #2b2b2b;
+      font-weight: 600;
+    }
+
+    .blog-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0px;
+      flex-wrap: wrap;
+    }
+
+    .blog-box {
+      width: 350px;
+      background-color: #ffffff;
+      border: 1px solid #ececec;
+      margin: 20px 20px;
+
+    }
+
+    .blog-img {
+      width: 100%;
+      height: auto;
+    }
+
+    .blog-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .blog-text {
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .blog-text span {
+      color: #f33c3c;
+      font-size: 0.9rem;
+    }
+
+    .blog-text .blog-title {
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: #272727;
+    }
+
+    .blog-text p {
+      color: #9b9b9b;
+      font-size: 0.9rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin: 20px 0px;
+    }
+
+    .blog-text a {
+      color: #0f0f0f;
+    }
+
+    .blog-text a:hover {
+      color: #c74242;
+      transition: all ease 0.3s;
+    }
+
+
+    @media(max-width:1250px) {
+
+      .blog-box {
+        width: 300px;
+      }
+    }
+
+    @media(max-width:1100px) {
+      .blog-box {
+        width: 70%;
+      }
+    }
+
+    @media(max-width:550px) {
+
+      .blog-box {
+        margin: 20px 10px;
+        width: 100%;
+      }
+
+      #blog {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!--header-->
+  <header>
+    <div class="header">
+      <nav>
+        <div class="logo"><img src="https://www.ofppt.ma/themes/custom/ofppt/assets/images/logo.png" alt=""></div>
+        <div class="menu">
+          <ul>
+            <li><a href="accueil.html">ACCUEIL</a></li>
+            <li class="list"><a class="dropdown dropdown-toggle" data-bs-toggle="dropdown" href="">FORMATIONS</a>
+              <ul class="dropdown-menu text-center " id="liste2">
+                <li><a class="dropdown-item" href="typeformation.html">TYPES DES FORMATIONS</a></li> <br>
+                <hr>
+                <li><a class="dropdown-item" href="modeformation.html">MODE DES FORMATIONS</a></li><br>
+                <hr>
+                <li><a class="dropdown-item" href="niveaux-form.html">NIVEAUX DES FORMATIONS</a></li>
+              </ul>
+            </li>
+            <li><a href="filiere.html">FiliÉRE</a></li>
+            <li><a href="platforme.html">PLATEFORMES</a></li>
+          </ul>
+        </div>
+        <div class="socials">
+          <a href="contact.html">CONTACT</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section>
+    <div id="blog">
+      <div class="blog-heading">
+        <h3>Les Platformes</h3>
+      </div>
+
+
+
+      <div class="blog-container">
+
+        <!--box-1------------->
+        <div class="blog-box">
+
+
+          <div class="blog-img">
+            <img alt="blog" src="Photo/myway.jpg">
+          </div>
+          <div class="blog-text">
+            <a href="#" class="blog-title">MyWay OFPPT</a>
+            <p><strong>MYWAY</strong> est un système informatique mis en place par l'Office de la Formation
+              Professionnelle et de la Promotion du Travail (OFPPT) au Maroc pour gérer et faciliter les processus liés
+              à la formation professionnelle.</p>
+            <a href="https://www.myway.ac.ma/fr/filieres" target="_blank" class="btn btn-primary">MyWay</a>
+          </div>
+
+        </div>
+
+
+
+
+        <!--box-2------------->
+        <div class="blog-box">
+
+          <div class="blog-img">
+            <img alt="blog" src="Photo/webforce.jpg">
+          </div>
+          <div class="blog-text">
+            <a href="#" class="blog-title">WEBFORCE LIFE</a>
+            <p>La plateforme pédagogique <strong>WebForce Life</strong> accompagne, le stagiaire pendant la formation,
+              avec des tutoriels, des fiches de révisions et des quizz. Élément clé de notre méthodologie, elle permet
+              de réviser les acquis du jour, d’effectuer un suivi individualisé avec le formateur, de mettre en lumière
+              des incompréhensions et… de développer de nouvelles compétences .</p>
+            <a href="https://login.wf3.webforce.life" target="_blank" class="btn btn-primary">webforce life</a>
+          </div>
+
+        </div>
+
+
+
+
+        <!--box-3------------->
+        <div class="blog-box">
+
+          <div class="blog-img">
+            <img alt="blog" src="Photo/ofpptacademi.jpg">
+          </div>
+          <div class="blog-text">
+
+            <a href="#" class="blog-title">OFPPT ACADEMY</a>
+            <p>Plateforme <strong>OFPPT ACADEMY</strong>
+              Une médiathèque de ressources didactiques qui Couvre la totalité des modules dispensés dans toutes les
+              filières.</p>
+            <a href="https://olms.ofppt.ma/" target="_blank" class="btn btn-primary">OFPPT ACADEMY</a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col text-white">
+          <p>L'office de la formation professionnelle et de la promotion du travail</p>
+          <a href="www.youtube.com/@OFPPTchaineofficielle"></a><a
+            href="https://www.youtube.com/@OFPPTchaineofficielle"><i class="bi bi-youtube"></i></a><a
+            href="https://www.linkedin.com/company/ofpptpageofficielle"><i class="bi bi-linkedin"></i></a> <a
+            href="https://www.instagram.com/ofppt.officiel/"><i class="bi bi-instagram mr-2"></i></a> <a
+            href="https://www.facebook.com/ofppt.page.officielle/"><i class="bi bi-facebook "></i></a>
+        </div>
+        <div class="col text-white">
+          <h2>FORMATION</h2>
+          <p><a href="typeformation.html"> Types Des Formations </a></p>
+          <p><a href="modeformation.html">Mode Des Formations </a></p>
+          <p><a href="niveaux-form.html">Niveaux Des Formations </a></p>
+        </div>
+        <div class="col text-white">
+          <h2>AUTRES LIENS</h2>
+          <p><a href="platforme.html">Plateforme</a></p>
+        </div>
+        <div class="col text-white">
+          <h2>CONTACTEZ-NOUS !</h2>
+          <p style="font-size: smaller;">Pour plus d'informations, n’hésitez pas de nous contacter</p>
+          <div class="btn btn-info">
+            <a href="contact.html" style="text-decoration: none; color: white;">CONTACTEZ-NOUS!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="one">
+      <p>Copyright © 2024 OFPPT. Tous droits réservés.</p>
+      <p>L'office de la formation professionnelle et de la promotion du travail-OFPPT</p>
+    </div>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
